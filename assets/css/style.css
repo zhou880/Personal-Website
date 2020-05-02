@@ -311,36 +311,48 @@ section {
 # About
 --------------------------------------------------------------*/
 
-.education .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #173b6c;
-}
 
-.education .content ul {
+.education .row ul {
   list-style: none;
   padding: 0;
 }
 
-.education .content ul li {
+.education .row ul li {
   padding-bottom: 10px;
 }
 
-.education .content ul i {
+.education .row ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #149ddd;
 }
 
-.education .content p:last-child {
+.education .row p:last-child {
   margin-bottom: 0;
 }
-
+.education .row p {
+  font-size: 16px;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.education .row h3 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
 
 
 /*--------------------------------------------------------------
 # Experience
 --------------------------------------------------------------*/
+.experience .
 .experience .experience-title {
   font-size: 26px;
   font-weight: 700;
@@ -349,14 +361,7 @@ section {
   color: #050d18;
 }
 
-.experience .experience-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid #1f5297;
-  position: relative;
-}
-
-.experience .experience-item h4 {
+.experience .row h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -364,37 +369,15 @@ section {
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
+  text-decoration: underline;
+  font-weight:bold;
 }
 
-.experience .experience-item h5 {
+.experience .row h5 {
   font-size: 16px;
   background: #e4edf9;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-}
-
-.experience .experience-item ul {
-  padding-left: 20px;
-}
-
-.experience .experience-item ul li {
-  padding-bottom: 10px;
-}
-
-.experience .experience-item:last-child {
-  padding-bottom: 0;
-}
-
-.experience .experience-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
 }

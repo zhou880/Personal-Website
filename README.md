@@ -1,3 +1,3 @@
 # Tim Zhou's Personal Website
-- Website still in development.
+- www.tim-zhou.com
 - Bootstrap Resume Theme From **BootstrapMade - iPortfolio**

@@ -124,7 +124,15 @@ li {
   #main {
     margin-left: 0;
   }
-  
+  section {
+    padding: 60px 20px;
+    height: auto !important;
+    overflow: visible;
+  }
+  #hero{
+    height: 100vh !important;
+    overflow: visible;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -274,7 +282,7 @@ li {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 20px;
   overflow: scroll;
   height: 100vh;
 }

@@ -544,7 +544,7 @@ pre code {
 .container {
   width: 100%;
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 40px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -607,7 +607,7 @@ pre code {
 
 .row {
   display: -ms-flexbox;
-  display: flex;
+  display: block;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;

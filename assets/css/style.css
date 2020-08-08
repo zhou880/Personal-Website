@@ -320,36 +320,36 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Education
+# About
 --------------------------------------------------------------*/
 
 
-.education .row ul {
+.about .row ul {
   list-style: none;
   padding: 0;
 }
 
-.education .row ul li {
+.about .row ul li {
   padding-bottom: 10px;
 }
 
-.education .row ul i {
+.about .row ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #149ddd;
 }
 
-.education .row p:last-child {
+.about .row p:last-child {
   margin-bottom: 0;
 }
-.education .row p {
+.about .row p {
   font-size: 16px;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 0px;
 }
-.education .row h3 {
+.about .row h3 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -358,6 +358,14 @@ section {
   color: #050d18;
   margin-bottom: 10px;
   font-weight: bold;
+}
+.about .row h5 {
+  font-size: 30px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 

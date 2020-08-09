@@ -377,7 +377,7 @@ section {
 /*--------------------------------------------------------------
 # Projects
 --------------------------------------------------------------*/
-.projects .
+.projects
 .projects .experience-title {
   font-size: 26px;
   font-weight: 700;
@@ -416,9 +416,29 @@ section {
   position:relative;
   height:0;
 }
-/*
-Contact Section
-*/
+
+/*--------------------------------------------------------------
+# Interests
+--------------------------------------------------------------*/
+/*Overwrite from previous h5 tag for projects*/
+.projects .row h5{
+  width: 100vh;
+  text-align: center;
+  font-size: 32px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.projects iframe{
+
+  margin-left:auto;
+  margin-right: auto;
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
 .map-container-section iframe {
   left:0;
   top:0;
@@ -426,4 +446,3 @@ Contact Section
   width:100%;
   position:absolute;
 }
-

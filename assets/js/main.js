@@ -4,6 +4,9 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}
 !(function($) {
   "use strict";
 

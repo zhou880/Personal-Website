@@ -24,6 +24,7 @@ li {
   text-align: -webkit-match-parent;
   white-space: normal;
 }
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -283,7 +284,7 @@ li {
 --------------------------------------------------------------*/
 section {
   padding: 60px 20px;
-  overflow: scroll;
+  overflow: auto;
   height: 10%;
 }
 
@@ -407,8 +408,10 @@ section {
   margin-bottom: 10px;
 }
 .projects .row img {
-  height: 350px;
-  max-width: 100%;
+  height: 500px;
+  min-width: 100%;
+  max-width: none;
+  width:auto;
 }
 .map-container-section {
   overflow:hidden;

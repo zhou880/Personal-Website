@@ -12,12 +12,10 @@ if (isset($_POST['submit'])){
 
     $to = "zhou880@purdue.edu";
 
-    $headers = "From: $email_from \r\n";
 
 
-    mail($to,$email_subject,$email_body,$headers);
+    mail($to,$email_subject,$email_body,"From: $name <$visitor_email>");
     header("Location: index.html?mailsend");
-    exit();
 }
 
 

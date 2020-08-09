@@ -284,7 +284,7 @@ li {
 section {
   padding: 60px 20px;
   overflow: scroll;
-  height: 100vh;
+  height: 10%;
 }
 
 .section-bg {
@@ -322,7 +322,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
+.about p {
+  color: #696969;
+}
 
 .about .row ul {
   list-style: none;
@@ -338,7 +340,9 @@ section {
   padding-right: 2px;
   color: #149ddd;
 }
-
+.about .row img {
+  padding: 5px;
+}
 .about .row p:last-child {
   margin-bottom: 0;
 }
@@ -369,11 +373,12 @@ section {
 }
 
 
+
 /*--------------------------------------------------------------
-# Experience
+# Projects
 --------------------------------------------------------------*/
-.experience .
-.experience .experience-title {
+.projects .
+.projects .experience-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -381,7 +386,7 @@ section {
   color: #050d18;
 }
 
-.experience .row h4 {
+.projects .row h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -393,7 +398,7 @@ section {
   font-weight:bold;
 }
 
-.experience .row h5 {
+.projects .row h5 {
   font-size: 16px;
   background: #e4edf9;
   padding: 5px 15px;
@@ -401,3 +406,24 @@ section {
   font-weight: 600;
   margin-bottom: 10px;
 }
+.projects .row img {
+  height: 350px;
+  max-width: 100%;
+}
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+/*
+Contact Section
+*/
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+

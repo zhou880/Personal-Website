@@ -224,7 +224,6 @@ li {
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -265,6 +264,10 @@ li {
   #hero {
     background-attachment: fixed;
   }
+}
+@media only screen and (max-width: 900px) {
+  /* Style adjustments for non responsive websites */
+  body{width:940px;}
 }
 
 @media (max-width: 768px) {
